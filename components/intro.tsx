@@ -43,7 +43,7 @@ export default function Intro() {
           </motion.span>
         </div>
       </div>
-      <motion.p
+      <motion.h1
         className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
@@ -51,17 +51,10 @@ export default function Intro() {
       >
         <span className="font-bold">Hi, I'm Rendy Pratama.</span> I'm an{' '}
         <span className="font-bold">Information System</span> student in Multi
-        Data Palembang University. I'am eager to{' '}
-        <span className="italic">
-          learn new technologies and tools, and to share my knowledge and skills
-          with others.
-        </span>{' '}
-        I'am looking for opportunities to implement my skill as a{' '}
-        <span className="font-bold">Fullstack Web Developer</span> in a dynamic
-        and collaborative environment that values innovation and quality. I'm
-        currently focusing on the <span className="underline">NextJS</span>{' '}
-        framework.
-      </motion.p>
+        Data Palembang University. I'm currently hone my skills in{' '}
+        <span className="font-bold">Web Development</span> and focusing on the{' '}
+        <span className="underline">NextJS</span> framework.
+      </motion.h1>
       <motion.div
         className="flex flex-col sm:flex-row items-center justify-center gap-3 px-4 text-lg font-medium"
         initial={{ opacity: 0, y: 100 }}
