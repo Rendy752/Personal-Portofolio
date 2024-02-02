@@ -1,11 +1,12 @@
 import React from 'react';
 import { FaReact } from 'react-icons/fa';
 import { LuGraduationCap } from 'react-icons/lu';
-import bookAppImg from '@/public/bookApp.png';
-import cmsPerpustakaanImg from '@/public/cmsPerpustakaan.png';
-import mariBermusikImg from '@/public/mariBermusik.png';
-import mealAppImg from '@/public/mealApp.png';
-import shopAppImg from '@/public/shopApp.png';
+import bookAppImg from '@/public/bookAppImg.png';
+import cmsPerpustakaanImg from '@/public/cmsPerpustakaanImg.png';
+import mariBermusikWebImg from '@/public/mariBermusikWebImg.png';
+import mariBermusikMobileImg from '@/public/mariBermusikMobileImg.png';
+import mealAppImg from '@/public/mealAppImg.png';
+import shopAppImg from '@/public/shopAppImg.png';
 
 export const links = [
   {
@@ -96,7 +97,7 @@ export const projectsData = [
       'TailwindCSS',
       'SQLiteDatabase',
     ],
-    imageUrl: mariBermusikImg,
+    imageUrl: mariBermusikWebImg,
   },
 
   {
@@ -124,7 +125,7 @@ export const projectsData = [
       'Flutter-Firebase-Auth',
       'Flutter-Firebase-Firestore',
     ],
-    imageUrl: mariBermusikImg,
+    imageUrl: mariBermusikMobileImg,
   },
 ] as const;
 
