@@ -1,6 +1,6 @@
 import React from 'react';
-import { FaReact } from 'react-icons/fa';
-import { LuGraduationCap } from 'react-icons/lu';
+import { FaChalkboardTeacher } from 'react-icons/fa';
+import { CgWorkAlt } from 'react-icons/cg';
 import bookAppImg from '@/public/bookAppImg.png';
 import cmsPerpustakaanImg from '@/public/cmsPerpustakaanImg.png';
 import mariBermusikWebImg from '@/public/mariBermusikWebImg.png';
@@ -37,20 +37,20 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: 'Lecturer Assistant',
-    location: 'Palembang, Sumatera Selatan',
-    description:
-      'During my second year of college, I got a side job as a Lecturer Assistant at my own college in an Algorithms and Data Structures Class.',
-    icon: React.createElement(LuGraduationCap),
-    date: 'Feb 2023 - June 2023',
-  },
-  {
     title: 'Full-Stack Developer',
     location: 'PT Nusantara Infrastructure Tbk',
     description:
       "During my third year of college, I toom an internship as a Full-Stack Developer at PT Nusantara Infrastructure Tbk. I'm responsible for developing application for the company's internal use.",
-    icon: React.createElement(FaReact),
+    icon: React.createElement(CgWorkAlt),
     date: 'Feb 2024 - June 2024',
+  },
+  {
+    title: 'Lecturer Assistant',
+    location: 'Palembang, Sumatera Selatan',
+    description:
+      'During my second year of college, I got a side job as a Lecturer Assistant at my own college in an Algorithms and Data Structures Class.',
+    icon: React.createElement(FaChalkboardTeacher),
+    date: 'Feb 2023 - June 2023',
   },
 ] as const;
 
