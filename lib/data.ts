@@ -3,9 +3,12 @@ import { FaChalkboardTeacher } from 'react-icons/fa';
 import { CgWorkAlt } from 'react-icons/cg';
 import bookAppImg from '@/public/bookAppImg.png';
 import cmsPerpustakaanImg from '@/public/cmsPerpustakaanImg.png';
+import discordCloneImg from '@/public/discordCloneImg.jpeg';
 import mariBermusikWebImg from '@/public/mariBermusikWebImg.png';
 import mariBermusikMobileImg from '@/public/mariBermusikMobileImg.png';
 import mealAppImg from '@/public/mealAppImg.png';
+import nicaImg from '@/public/nicaImg.jpeg';
+import nisaImg from '@/public/nisaImg.jpeg';
 import shopAppImg from '@/public/shopAppImg.png';
 
 export const links = [
@@ -55,6 +58,40 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: 'NISA (Nusantara Infrastructure Self Assessment Application)',
+    description:
+      'An internal web application for employee self-assessment to manage highway pavement and asset inspection reports and other in the company',
+    tags: ['WinterCMS', 'NextJS', 'Docker', 'MySQL', 'Flutter', 'Google Cloud Platform'],
+    imageUrl: nisaImg,
+  },
+  {
+    title: 'Discord Clone',
+    description:
+      'A Discord Clone that includes chat features, text, voice, video channels, user authentication using Clerk, and web socket for real-time chat',
+    tags: [
+      'nextjs14',
+      'tailwind',
+      'clerk',
+      'socket.io',
+      'websocket',
+      'typescript',
+      'axios',
+      'prisma',
+      'emoji-picker',
+      'radix-ui',
+      'livekit',
+      'uploadthing',
+    ],
+    imageUrl: discordCloneImg,
+  },
+  {
+    title: 'NICA (Nusantara Infrastructure Commercial Application)',
+    description:
+      'An internal web application for managing information of outer and inner highway to make decision making easier for the company',
+    tags: ['WinterCMS', 'NextJS', 'MySQL', 'Docker', 'Google Cloud Platform'],
+    imageUrl: nicaImg,
+  },
   {
     title: 'CMS Perpustakaan',
     description:
@@ -137,6 +174,7 @@ export const skillsData = [
   'PHP',
   'TypeScript',
   'Laravel',
+  'WinterCMS',
   'OOP',
   'API',
   'MySQL',
@@ -144,6 +182,8 @@ export const skillsData = [
   'Next.js',
   'Node.js',
   'Git',
+  'Jira',
+  'Bitbucket',
   'Tailwind',
   'MongoDB',
   'Python',
