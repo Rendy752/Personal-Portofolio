@@ -1,17 +1,17 @@
-'use client';
-import Image from 'next/image';
-import React from 'react';
-import Myself from '@/public/myself.jpg';
-import { motion } from 'framer-motion';
-import Link from 'next/link';
-import { BsArrowRight, BsLinkedin } from 'react-icons/bs';
-import { HiDownload } from 'react-icons/hi';
-import { FaGithubSquare } from 'react-icons/fa';
-import { useSectionInView } from '@/lib/hooks';
-import { useActiveSectionContext } from '@/context/active_section_context';
+"use client";
+import Image from "next/image";
+import React from "react";
+import Myself from "@/public/myself.jpg";
+import { motion } from "framer-motion";
+import Link from "next/link";
+import { BsArrowRight, BsLinkedin } from "react-icons/bs";
+import { HiDownload } from "react-icons/hi";
+import { FaGithubSquare } from "react-icons/fa";
+import { useSectionInView } from "@/lib/hooks";
+import { useActiveSectionContext } from "@/context/active_section_context";
 
 export default function Intro() {
-  const { ref } = useSectionInView('Home', 0.5);
+  const { ref } = useSectionInView("Home", 0.5);
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
   return (
     <section
@@ -24,7 +24,7 @@ export default function Intro() {
           <motion.div
             initial={{ opacity: 0, scale: 0 }}
             animate={{ opacity: 1, scale: 1 }}
-            transition={{ type: 'tween', duration: 0.2, delay: 0.1 }}
+            transition={{ type: "tween", duration: 0.2, delay: 0.1 }}
           >
             <Image
               src={Myself}
@@ -41,7 +41,7 @@ export default function Intro() {
             initial={{ opacity: 0, scale: 0 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{
-              type: 'spring',
+              type: "spring",
               stiffness: 125,
               delay: 0.1,
               duration: 0.7,
@@ -57,11 +57,13 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.125 }}
       >
-        <span className="font-bold">Hi, I'm Rendy Pratama.</span> I'm an{' '}
-        <span className="font-bold">Information System</span> student in Multi
-        Data Palembang University. I'm currently hone my skills in{' '}
-        <span className="font-bold">Web Development</span> and focusing on the{' '}
-        <span className="underline">NextJS</span> framework.
+        <span className="font-bold">Hi, I'm Rendy Pratama.</span> I'm a{" "}
+        <span className="font-bold">Bachelor of Information System</span> from
+        Multi Data Palembang University. I'm currently hone my skills in{" "}
+        <span className="font-bold">Web Development</span> focusing on the{" "}
+        <span className="underline">NextJS</span> framework and{" "}
+        <span className="font-bold">Android Development</span> using{" "}
+        <span className="underline">Kotlin</span>.
       </motion.h1>
       <motion.div
         className="flex flex-col sm:flex-row items-center justify-center gap-3 px-4 text-lg font-medium"
@@ -72,11 +74,11 @@ export default function Intro() {
           href="#contact"
           className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
           onClick={() => {
-            setActiveSection('Contact');
+            setActiveSection("Contact");
             setTimeOfLastClick(Date.now());
           }}
         >
-          Contact me here{' '}
+          Contact me here{" "}
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
         </Link>
         <a
@@ -84,7 +86,7 @@ export default function Intro() {
           href="/resume.pdf"
           download
         >
-          Download CV{' '}
+          Download CV{" "}
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
         </a>
         <a
