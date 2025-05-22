@@ -57,13 +57,11 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.125 }}
       >
-        <span className="font-bold">Hi, I'm Rendy Pratama.</span> I'm a{" "}
-        <span className="font-bold">Bachelor of Information System</span> from
-        Multi Data Palembang University. I'm currently hone my skills in{" "}
-        <span className="font-bold">Web Development</span> focusing on the{" "}
-        <span className="underline">NextJS</span> framework and{" "}
-        <span className="font-bold">Android Development</span> using{" "}
-        <span className="underline">Kotlin</span>.
+        <span className="font-bold">Hi, I'm Rendy Pratama.</span> Recent
+        Information System graduate eager to launch a career as a software
+        developer in a dynamic, team-oriented environment that fosters
+        innovation and quality. Excited to apply my skills in building websites
+        and mobile apps to create meaningful solutions.
       </motion.h1>
       <motion.div
         className="flex flex-col sm:flex-row items-center justify-center gap-3 px-4 text-lg font-medium"

@@ -43,20 +43,28 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Full-Stack Developer",
-    location: "PT Nusantara Infrastructure Tbk",
+    title: "FullStack Developer Intern",
+    location: "PT Nusantara Infrastructure Tbk, Jakarta",
     description:
-      "During my third year of college, I toom an internship as a Full-Stack Developer at PT Nusantara Infrastructure Tbk. I'm responsible for developing application for the company's internal use.",
+      "During my third year of college, I interned as a FullStack Developer at PT Nusantara Infrastructure Tbk. I developed internal applications, delivering an average of 2 new feature releases per month. I resolved critical user issues, reducing major bug reports by 15%. Additionally, I built interactive charts and maps to visualize over 700,000 data points, enhancing data accessibility and exploration.",
     icon: React.createElement(CgWorkAlt),
-    date: "Feb 2024 - June 2024",
+    date: "Feb 2024 - Jun 2024",
+  },
+  {
+    title: "Vice Chairman",
+    location: "Unit Kegiatan Mahasiswa Programming, Palembang",
+    description:
+      "As Vice Chairman of the Unit Kegiatan Mahasiswa Programming, I helped organize the 2024 Coaching Program for over 40 participants. I led and contributed to group projects independently and competed in the Programming Division at Gemastik 2024.",
+    icon: React.createElement(CgWorkAlt),
+    date: "May 2024 - May 2025",
   },
   {
     title: "Lecturer Assistant",
-    location: "Palembang, Sumatera Selatan",
+    location: "Universitas Multi Data Palembang",
     description:
-      "During my second year of college, I got a side job as a Lecturer Assistant at my own college in an Algorithms and Data Structures Class.",
+      "During my second year of college, I worked as a Lecturer Assistant at Universitas Multi Data Palembang in the Algorithms and Data Structures class. I supported over 25 students in their learning, led a workshop on Microsoft Word templates for academic writing attended by over 40 participants, and graded quizzes for more than 25 students.",
     icon: React.createElement(FaChalkboardTeacher),
-    date: "Feb 2023 - June 2023",
+    date: "Feb 2023 - Jun 2023",
   },
 ] as const;
 
@@ -94,7 +102,7 @@ export const projectsData = [
       "Google Cloud Platform",
     ],
     imageUrl: nisaImg,
-    link: "https://nisa.nusantarainfrastructure.com/",
+    link: "https://nisa.nusantarainfrastructure.com",
   },
   {
     title: "Discord Clone",
@@ -115,7 +123,7 @@ export const projectsData = [
       "uploadthing",
     ],
     imageUrl: discordCloneImg,
-    link: "https://github.com/Rendy752/Discord-Clone",
+    link: "https://rendyp-discord.vercel.app",
   },
   {
     title: "NICA (Nusantara Infrastructure Commercial Application)",
@@ -155,7 +163,7 @@ export const projectsData = [
       "zustand",
     ],
     imageUrl: portalLokerImg,
-    link: "https://github.com/PAWII-Portal-Loker/frontend",
+    link: "https://portal-loker.fanesp.online",
   },
   {
     title: "CMS Perpustakaan",
@@ -163,7 +171,7 @@ export const projectsData = [
       "BA Simple CMS that includes CRUD operations in managing content related to library books",
     tags: ["Laravel", "CRUD", "MySQL-Database", "Bootstrap5"],
     imageUrl: cmsPerpustakaanImg,
-    link: "https://github.com/Rendy752/CMS-Perpustakaan",
+    link: "https://perpustakaanrendy.000webhostapp.com",
   },
   {
     title: "Book App",
@@ -189,7 +197,7 @@ export const projectsData = [
       "MaterializeCSS",
     ],
     imageUrl: mealAppImg,
-    link: "https://github.com/Rendy752/Meal-App",
+    link: "https://rendyp-meal.vercel.app",
   },
   {
     title: "Mari Bermusik Web",
@@ -220,7 +228,7 @@ export const projectsData = [
       "Tailwind",
     ],
     imageUrl: shopAppImg,
-    link: "https://github.com/Rendy752/Shop-App",
+    link: "https://rendyp-shop.vercel.app",
   },
   {
     title: "Mari Bermusik Mobile",
@@ -234,7 +242,7 @@ export const projectsData = [
       "Flutter-Firebase-Firestore",
     ],
     imageUrl: mariBermusikMobileImg,
-    link: "https://github.com/Rendy752/Mari-Bermusik",
+    link: "https://maribermusik-752.web.app",
   },
 ] as const;
 
@@ -246,8 +254,10 @@ export const skillsData = [
   "TypeScript",
   "Laravel",
   "Winter CMS",
+  "Dart",
   "Flutter",
   "Kotlin",
+  "Jetpack Compose",
   "OOP",
   "API",
   "MySQL",
