@@ -79,21 +79,29 @@ export default function Intro() {
           Contact me here{" "}
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
         </Link>
-        <a
+        <Link
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
           href="/resume.pdf"
-          download
+          target="_blank"
         >
-          Download CV{" "}
+          CV{" "}
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
-        </a>
-        <a
+        </Link>
+        <Link
+          className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
+          href="/portfolio.pdf"
+          target="_blank"
+        >
+          Portfolio{" "}
+          <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
+        </Link>
+        <Link
           className="bg-white text-gray-700 p-4 flex items-center gap-2 rounded-full outline-none focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://www.linkedin.com/in/rendy-pratama-aa574124a"
+          href="https://www.linkedin.com/in/rendyp"
           target="_blank"
         >
           <BsLinkedin />
-        </a>
+        </Link>
         <a
           className="bg-white text-gray-700 p-4 flex items-center gap-2 rounded-full text-[1.35rem] outline-none focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
           href="https://github.com/Rendy752"
