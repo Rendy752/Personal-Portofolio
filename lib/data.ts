@@ -87,7 +87,7 @@ export const projectsData = [
       "Chucker",
     ],
     imageUrl: animeAppImg,
-    link: "https://github.com/Rendy752/Anime-App",
+    link: "https://play.google.com/store/apps/details?id=com.luminoverse.animevibe",
   },
   {
     title: "NISA (Nusantara Infrastructure Self Assessment Application)",
