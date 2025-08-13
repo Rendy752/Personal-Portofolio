@@ -1,7 +1,7 @@
 import React from "react";
 import { FaChalkboardTeacher } from "react-icons/fa";
 import { CgWorkAlt } from "react-icons/cg";
-import animeAppImg from "@/public/animeAppImg.jpg";
+import animeVibeImg from "@/public/animeVibeImg.jpg";
 import bookAppImg from "@/public/bookAppImg.png";
 import cmsPerpustakaanImg from "@/public/cmsPerpustakaanImg.png";
 import discordCloneImg from "@/public/discordCloneImg.jpeg";
@@ -70,7 +70,7 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "AnimeApp",
+    title: "AnimeVibe",
     description:
       "Anime themed Android App that showing anime information from recommendation, filter, detail, and episode streaming using room to store local data to minimize hit API.",
     tags: [
@@ -86,7 +86,7 @@ export const projectsData = [
       "Hilt",
       "Chucker",
     ],
-    imageUrl: animeAppImg,
+    imageUrl: animeVibeImg,
     link: "https://play.google.com/store/apps/details?id=com.luminoverse.animevibe",
   },
   {
