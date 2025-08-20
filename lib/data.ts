@@ -146,7 +146,7 @@ export const projectsData = [
       "Rechart",
     ],
     imageUrl: uvceMappsAdminImg,
-    link: "https://uvce-admin.fanesp.online",
+    link: "https://admin.uvce.my.id",
   },
   {
     title: "PortalLoker",
